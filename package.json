@@ -1,12 +1,27 @@
 {
   "name": "cement",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "author": {
+    "name": "Andreas Lord",
+    "email": "andlo779@gmail.com",
+    "url": "https://github.com/andlo779"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andlo779/cement"
+  },
+  "engines": {
+    "node": ">=16.16.0",
+    "npm": ">=8.1.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts{,x}\" --fix"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -15,7 +30,11 @@
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
     "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }

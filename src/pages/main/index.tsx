@@ -1,10 +1,9 @@
 import React from 'react';
-import { Div } from './styles';
 
-export const Home = () => {
+export const Main = () => {
 	return (
-		<Div>
+		<div>
 			<h1>Welcome to Concrete</h1>
-		</Div>
+		</div>
 	);
 };

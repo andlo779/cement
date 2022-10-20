@@ -7,10 +7,14 @@ export const Footer = styled.footer`
 	justify-content: center;
 	position: absolute;
 	bottom: 0;
+	margin-top: auto;
+	padding: 0.2rem 0;
+	height: 1.7rem;
 	width: 100%;
-	text-align: center;
+	align-items: center;
 	background-color: ${colors.grey};
 	color: ${colors.black};
+  overflow: hidden;
 `;
 
 export const Column = styled.div`
@@ -18,14 +22,19 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: center;
   margin-left: 60px;
+  overflow: hidden;
+`;
+export const Paragraph = styled.p`
+  overflow: hidden;
 `;
 
 export const NavLink = styled(Link)`
   color: ${colors.black};
-  display: flex;
-  align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  cursor: pointer;
+  cursor: default;
+  &:hover {
+    filter: drop-shadow(0 0 2em #ffffff);
+  }
 `;

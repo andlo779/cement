@@ -10,19 +10,13 @@ export const GlobalStyle = createGlobalStyle`
 		font-family: 'Open Sans', sans-serif;
 	}
 	#root{
-		margin:0 auto;
+		position: relative;
 		background-color: ${colors.space};
 		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
 	}
 	h1, h2, h3, p{
 		color: ${colors.black};
-		//margin-bottom: 10px;
-	}
-	p{
-		//margin-bottom: 20px;
-	}
-	a{
-    text-decoration: none;
-    cursor: pointer;
 	}
 `

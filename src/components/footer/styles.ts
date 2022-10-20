@@ -5,7 +5,7 @@ import {NavLink as Link} from "react-router-dom";
 export const Footer = styled.footer`
 	display: flex;
 	justify-content: center;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	margin-top: auto;
 	padding: 0.2rem 0;
@@ -15,6 +15,7 @@ export const Footer = styled.footer`
 	background-color: ${colors.grey};
 	color: ${colors.black};
   overflow: hidden;
+	font-size: 15px;
 `;
 
 export const Column = styled.div`

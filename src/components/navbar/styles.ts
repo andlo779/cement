@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 	padding: 0.5rem 1rem;
   overflow: hidden;
 	z-index: 99;
+	font-size: 18px;
 `;
 
 export const NavMenu = styled.div`

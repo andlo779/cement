@@ -4,20 +4,18 @@ import { CgLogOut } from 'react-icons/cg'
 
 export const Navbar = () => {
 	return(
-		<div>
-			<Nav>
-				<NavMenu>
-					<NavLink to='/home'>
-						Home
-					</NavLink>
-					<NavLink to='/about'>
-						About
-					</NavLink>
-					<NavLink to='/tbd'>
-						<CgLogOut />
-					</NavLink>
-				</NavMenu>
-			</Nav>
-		</div>
+		<Nav>
+			<NavMenu>
+				<NavLink to='/home'>
+					Home
+				</NavLink>
+				<NavLink to='/about'>
+					About
+				</NavLink>
+				<NavLink to='/tbd'>
+					<CgLogOut />
+				</NavLink>
+			</NavMenu>
+		</Nav>
 	)
 }

@@ -28,8 +28,12 @@ Learning project for author to get into the depths of ReactJs <a href="https://r
 $ npm run dev
 ```
 
-## Notes
-The color shema that is used at the moment was inspired from [here](https://colorhunt.co/palette/00abb33c4048b2b2b2eaeaea).
+## Notes 
+(This Section should probably move to wiki)
+
+The color schema that is used at the moment was inspired from [here](https://colorhunt.co/palette/00abb33c4048b2b2b2eaeaea).
+
+The fav icons was generated [here](https://favicon.io/favicon-generator/).
 
 ## Backlog
 Official backlog can be found in [GitHub Projects](https://github.com/users/andlo779/projects/2/views/2)

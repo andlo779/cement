@@ -1,8 +1,10 @@
-import React from "react";
-import {Nav, NavLink, NavMenu } from "./styles";
-import { CgLogOut } from 'react-icons/cg'
+import React, {useState} from "react";
+import {LoginButton, LoginIcon, Nav, NavLink, NavMenu} from "./styles";
+import {LoginPopup} from "../loginPopup";
 
 export const Navbar = () => {
+	const [showLogin, setShowLogin] = useState(false);
+
 	return(
 		<Nav>
 			<NavMenu>
@@ -12,9 +14,10 @@ export const Navbar = () => {
 				<NavLink to='/about'>
 					About
 				</NavLink>
-				<NavLink to='/tbd'>
-					<CgLogOut />
-				</NavLink>
+				<LoginButton onClick={() => setShowLogin(true)}>
+					<LoginIcon />
+				</LoginButton>
+				{showLogin ? <LoginPopup /> : null}
 			</NavMenu>
 		</Nav>
 	)

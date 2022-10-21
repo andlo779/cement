@@ -1,13 +1,17 @@
-import React from "react";
-import { Popup, PopupContent } from "./styles";
+import React from 'react';
+import {CloseButton, CloseIcon, Popup, PopupContent} from './styles';
 
-export const LoginPopup = () => {
+export type LoginPopupProps = {
+	toggle: () => void;
+}
 
-	return(
+export const LoginPopup = (props: LoginPopupProps) => {
+	return (
 		<Popup>
 			<PopupContent>
-				<p>This is a popup!</p>
+				<CloseButton onClick={props.toggle}><CloseIcon/></CloseButton>
+				<p>This is a popup</p>
 			</PopupContent>
 		</Popup>
-	)
-}
+	);
+};

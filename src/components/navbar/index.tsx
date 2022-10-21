@@ -1,11 +1,15 @@
-import React, {useState} from "react";
-import {LoginButton, LoginIcon, Nav, NavLink, NavMenu} from "./styles";
-import {LoginPopup} from "../loginPopup";
+import React, {useState} from 'react';
+import {LoginButton, LoginIcon, Nav, NavLink, NavMenu} from './styles';
+import {LoginPopup} from '../loginPopup';
 
 export const Navbar = () => {
 	const [showLogin, setShowLogin] = useState(false);
 
-	return(
+	const toggleShowPopup = () => {
+		setShowLogin(!showLogin);
+	};
+
+	return (
 		<Nav>
 			<NavMenu>
 				<NavLink to='/home'>
@@ -14,11 +18,11 @@ export const Navbar = () => {
 				<NavLink to='/about'>
 					About
 				</NavLink>
-				<LoginButton onClick={() => setShowLogin(true)}>
-					<LoginIcon />
+				<LoginButton onClick={() => toggleShowPopup()}>
+					<LoginIcon/>
 				</LoginButton>
-				{showLogin ? <LoginPopup /> : null}
+				{showLogin ? <LoginPopup toggle={toggleShowPopup}/> : null}
 			</NavMenu>
 		</Nav>
-	)
-}
+	);
+};

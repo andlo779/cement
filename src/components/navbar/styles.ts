@@ -15,6 +15,20 @@ export const Nav = styled.nav`
   top: 0;
   width: 100%;
   z-index: 99;
+
+  &::after {
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: green;
+    z-index: 99;
+
+  }
 `;
 
 export const NavMenu = styled.div`

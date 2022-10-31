@@ -12,6 +12,7 @@
 
 <div align=center>
 
+[![Cement CI](https://github.com/andlo779/cement/actions/workflows/ci.yml/badge.svg)](https://github.com/andlo779/cement/actions/workflows/ci.yml)
 ![GitHub](https://img.shields.io/github/license/andlo779/cement)
 ![GitHub last commit](https://img.shields.io/github/last-commit/andlo779/cement?color=yellow)
 ![GitHub Repo stars](https://img.shields.io/github/stars/andlo779/cement)

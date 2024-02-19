@@ -1,7 +1,7 @@
 import React from 'react';
-import { GitHubIcon, MailIcon, Link, Logo, Paragraph, SpinningLogo } from './styles'
-import reactLogo from '../../assets/react.svg'
-import typeScriptLogo from '../../assets/typescript.svg'
+import { GitHubIcon, MailIcon, Link, Logo, Paragraph, SpinningLogo } from './styles';
+import reactLogo from '../../assets/react.svg';
+import typeScriptLogo from '../../assets/typescript.svg';
 
 export const Index = () => {
 	return (

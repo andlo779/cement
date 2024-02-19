@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { colors } from "../../styles/colors";
-import {NavLink as Link} from "react-router-dom";
+import styled from 'styled-components';
+import { colors } from '../../styles/colors';
+import {NavLink as Link} from 'react-router-dom';
 
 export const Footer = styled.footer`
 	display: flex;

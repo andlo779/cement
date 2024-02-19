@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { colors } from "./colors";
+import { colors } from './colors';
 
 export const GlobalStyle = createGlobalStyle`
 	*{
@@ -19,4 +19,4 @@ export const GlobalStyle = createGlobalStyle`
 	h1, h2, h3, p{
 		color: ${colors.black};
 	}
-`
+`;

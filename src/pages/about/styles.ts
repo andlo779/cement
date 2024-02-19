@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import {HiOutlineMail} from "react-icons/hi";
-import {colors} from "../../styles/colors";
-import {BsGithub} from "react-icons/bs";
+import styled from 'styled-components';
+import {HiOutlineMail} from 'react-icons/hi';
+import {colors} from '../../styles/colors';
+import {BsGithub} from 'react-icons/bs';
 
 export const MailIcon = styled(HiOutlineMail)`
 	position: relative;

@@ -1,5 +1,5 @@
-import React from "react";
-import {Column, Footer as Foter, NavLink, Paragraph} from './styles'
+import React from 'react';
+import {Column, Footer as Foter, NavLink, Paragraph} from './styles';
 
 export const Footer = () => {
 	return(
@@ -11,5 +11,5 @@ export const Footer = () => {
 				<NavLink to='/about'>About</NavLink>
 			</Column>
 		</Foter>
-	)
-}
+	);
+};

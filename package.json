@@ -31,7 +31,7 @@
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@types/react": "^18.2.73",
+    "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.34",
